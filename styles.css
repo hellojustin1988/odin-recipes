@@ -1,0 +1,25 @@
+* {
+    font-family: Rockwell, Arial, sans-serif;
+}
+
+h1,
+h2 {
+    text-decoration: underline;
+    color: #36454F;
+}
+
+.odd {
+    font-weight: 900;
+}
+
+li {
+    font-size: 18px;
+}
+
+strong {
+    color: #36454F;
+}
+
+.breadcrumb {
+    font-size: 12px;
+}
