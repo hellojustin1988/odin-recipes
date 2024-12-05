@@ -2,8 +2,6 @@
     font-family: Rockwell, Arial, sans-serif;
     background-color: #FDF8ED;
     box-sizing: border-box;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 #homepage-box {
@@ -13,6 +11,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -20,10 +19,9 @@
     border: black, 2px, solid;
     border-radius: 25px;
     width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin: 5px auto;
+    padding: 15px;
+    /*text-align: center;*/
 }
 
 #mom-turkey{
@@ -47,15 +45,18 @@ li {
     text-align: left;
 }
 
-strong {
-    color: #36454F;
-}
-
 .breadcrumb {
     font-size: 12px;
     text-align: left;
 }
 
 .recipe-title {
-    text-align: left;
+   
+}
+
+.recipe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
